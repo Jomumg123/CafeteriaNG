@@ -1,6 +1,6 @@
 /**
  * =======================================================
- * JS para Coffee NG (Actualizado para Feedback)
+ * JS para Coffee NG 
  * =======================================================
  */
 
@@ -58,7 +58,6 @@ function setupFeedbackLogic() {
 
 // =======================================================
 // 3. FUNCIONALIDAD DEL FORMULARIO DE CONTACTO (contacto.html)
-// Lógica de validación modificada para separar Pedido de Feedback.
 // =======================================================
 
 function setupContactForm(form) {
@@ -102,15 +101,12 @@ function setupContactForm(form) {
             alert('⭐ ¡Gracias por tu calificación y/o sugerencia! Tu opinión es muy valiosa para Coffee NG.');
         }
 
-        // form.submit(); // Descomenta esto para el envío real
         form.reset(); 
     });
 }
 
 
-// =======================================================
-// OTRAS FUNCIONES (sin cambios)
-// =======================================================
+
 
 function highlightMenuItems() {
     const menuItems = document.querySelectorAll('.menu-item');
